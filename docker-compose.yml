@@ -5,7 +5,7 @@ services:
     build: .
 
     # Comando 1 - Por que instalar o php no seu computador?
-    # command: bash -c "chmod +x install_composer.sh && ./install_composer.sh"
+    # command: bash -c "chmod +x scripts/install_composer.sh && ./scripts/install_composer.sh"
 
     # Comando 2 - Por que instalar o php no seu computador? (Parte 2)
     command: php bin/composer create-project --prefer-dist laravel/lumen ece
