@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  api:
+    build: .
+
+    # Comando 1 - Por que instalar o php no seu computador?
+    command: bash -c "chmod +x install_composer.sh && ./install_composer.sh"
+
+    volumes:
+      - .:/code
+
+    ports:
+      - "8000:8000"
