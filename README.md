@@ -2,14 +2,15 @@
 Esqueleto de Comércio Eletrônico
 
 ## Interface Gráfica
-
 ### Componentes
+
+> { *<Usuário Anônimo>* ou *<Usuário Cliente Autenticado>* }
 
 #### Cabeçalho
 
 | Estrutura do Cabeçalho |
 | - |
-| Logo + Pesquisa + Usuário Cliente { Entrar/Cadastrar ou Avatar Menu } |
+| Logo + Pesquisa + Usuário Cliente { Entrar/Cadastrar ou [Avatar Menu](#) } |
 | Barra de Navegação de Categorias |
 
 #### Rodapé
@@ -18,23 +19,19 @@ Esqueleto de Comércio Eletrônico
 | - |
 | Informações Complementares + { Login de Administrador ou Vazio } |
 
-***Obs.:*** { *<Usuário Anônimo>* ou *<Usuário Cliente Autenticado>* }
-
 ### Telas
-
 #### Tela Inicial
+
+> Um *<Usuário Administrador Autenticado>* é redirecionado para a [Tela de Configuração Administrativa](#) 
 
 | Estrutura da Tela Inicial |
 | - |
-| [Cabeçalho](#Cabeçalho) |
+| [Cabeçalho](#cabeçalho) |
 | Carrossel de Promoções |
-| Linha Horizontal de Categorias de Produto |
 | Listas Horizontais de Produtos Destaques (Categorias) | 
-| Rodapé |
+| [Rodapé](#rodapé) |
 
-<!-- ### Tela Inicial (Usuário Administrador Autenticado)
-
--> Redirecionamento para Tela de Configuração Administrativa
+<!--
 
 ### Tela de Resultados de Pesquisa e Tela de Listagem de Categorias
 
@@ -52,6 +49,3 @@ Listas Horizontais de Produtos Destaques (Categorias)
 // Autenticação de 2 Fatores para Usuário Administrador](url)
 
 -->
-
-
-
